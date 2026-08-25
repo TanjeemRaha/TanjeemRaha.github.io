@@ -397,11 +397,13 @@ h3 {
   display: grid;
   width: 100%;
   align-self: center;
+  justify-items: center;
 }
 
 .profile-portrait {
   position: relative;
-  margin: 0 22px 0 0;
+  width: min(82%, 280px);
+  margin: 0;
   overflow: hidden;
   aspect-ratio: 4 / 5;
   border: 1px solid rgba(21, 59, 54, 0.16);
@@ -428,7 +430,8 @@ h3 {
 .opportunity-card {
   position: relative;
   z-index: 1;
-  margin: -86px 0 0 34px;
+  width: 100%;
+  margin: 22px 0 0;
   padding: 34px;
   border: 1px solid rgba(21, 59, 54, 0.13);
   background: rgba(255, 255, 255, 0.7);
@@ -1518,12 +1521,13 @@ h3 {
   }
 
   .opportunity-card {
-    margin: -54px 0 0 18px;
+    margin: 18px 0 0;
     padding: 27px 23px;
   }
 
   .profile-portrait {
-    margin-right: 10px;
+    width: min(82%, 260px);
+    margin: 0;
   }
 
   .interest-list div {
