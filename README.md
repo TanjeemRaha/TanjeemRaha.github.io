@@ -25,6 +25,6 @@ For a custom domain later, add the domain in the GitHub Pages settings and follo
 - Page content: `index.html`
 - Colors and layout: `styles.css`
 - Navigation behavior: `script.js`
-- Optional downloadable CV path: `Raha_cv.pdf` (the private local copy is excluded from this repository)
+- Downloadable public CV: `Raha_cv.pdf`
 
-The site intentionally does not publish the private CV or the home address, phone number, and referees' phone numbers it contains. A public-safe CV can be added later at `Raha_cv.pdf` without changing the existing website links.
+The repository includes the public-facing CV at `Raha_cv.pdf`; the website's navigation, hero, and contact links all point to that file.
